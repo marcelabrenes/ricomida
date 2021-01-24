@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+    <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand ricomida-fuente" href="#">Ricomida</a>
@@ -27,7 +28,7 @@
               <a class="nav-link" href="#about">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#recipe">Resetas</a>
+              <a class="nav-link" href="#recipe">Recetas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#us">Nosotros</a>
@@ -39,26 +40,26 @@
         </div>
       </div>
     </nav>
-
+<!--Header-->
     <section>
-        <div class="container px-lg-4 pt-5 mt-5">
-    <div class="row mx-lg-n5">
-        <div class="col py-3"><img src="assets/img/principal.jpg" alt="pizza"></div>
+        <div class="container px-lg-4 pt-5 pb-5 mt-5">
+    <div class="row mx-lg-n4">
+        <div class="col py-3"><img src="assets/img/principal.jpg" class="img-fluid" width="600" alt="pizza"></div>
         <div class="col py-3 fuente-pizza"><p>PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</p>
             <hr color="grey" size="4">
-            <h3 >110 MIN / 6 A 8 PORCIONES</h3>
-            <a href="#" class="btn  active" role="button" aria-pressed="true">Enviar por correo</a>
-            <a href="#" class="btn  active" role="button" aria-pressed="true">Añadir a favoritos</a>
+            <h3 class="fuente-portion">110 MIN / 6 A 8 PORCIONES</h3>
+            <a href="#" class="btn active btn-outline-light"  role="button" aria-pressed="true" data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar por correo" >Enviar por correo</a>
+            <a href="#" class="btn active btn-outline-light" role="button" aria-pressed="true" data-toggle="tooltip" data-placement="right" title="Agrega esta receta a tus favoritos">Añadir a favoritos</a>
         </div>
     </div>
         </div>
     </section>
-
+<!--Carrusel-->
   <section>
-      <div class="container-fluid my-2 py-2">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"></div>
-        <div class="carousel-inner">
-          <div class="carousel-item active text-center">
+    <div class="container">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
             <div class="row">
               <div class="col-3">
                 <img src="assets/img/slider-1.png" class="card-img-top" alt="">
@@ -84,15 +85,99 @@
               </div>
               <div class="col-3">
                 <img src="assets/img/slider-7.png" class="card-img-top" alt="">
-              </div>a-
+              </div>
               <div class="col-3">
                 <img src="assets/img/slider-8.png" class="card-img-top" alt="">
               </div>
             </div>
           </div>
         </div>
-</div>
+        </div>
+    </div>
   </section>
+<!--RECETA-->
+  <section>
+    <div class="container pt-5">
+      <hr color="grey" size="4">
+      <div class="row">
+        <div class="col">
+          <h3 class="receta">INGREDIENTES</h3>
+          <hr color="grey" size="1">
+          <h6 class="pt-5">Masa</h6>
+          <ul class="pt-4">
+            <li>375 g. harina de trigo de fuerza</li>
+            <li>8 g. sal</li>
+            <li>240 g. agua</li>
+            <li>45 g. aceite de girasol</li>
+            <li>10 g. levadura seca de panadero</li>
+            <h6>Salsa</h6>
+          </ul>
+          <ul>
+            <li>15 g. azúcar de la Tía Celia Cruz</li>
+            <li>200 g. queso mozarella rallado</li>
+            <li>300 g. salsa de tomate</li>
+            <li>Queso Parmesano</li>
+            <li>Espinacas</li>
+            <li>Hongos</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3 class="receta">PREPARACIÓN</h3>
+          <hr color="grey" size="1">
+          <ol class="recipe pt-5">
+            <li><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus minus ea quidem modi doloremque nisi ab enim maiores sunt exercitationem, itaque quibusdam alias magni adipisci sequi placeat dicta perferendis et. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis consequatur et ipsam suscipit impedit quia voluptates repudiandae nam quam in numquam animi totam placeat odio reiciendis, eveniet quas, ducimus cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident tempora doloribus, nisi similique iste rem veritatis maxime odio nemo ipsa! Dignissimos unde eius quam mollitia, porro aliquam eligendi officia.</p></li>
+            <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis atque aperiam beatae? Commodi omnis ipsum facilis debitis cum sed dolore, nisi illum quisquam iure aliquid vitae quam magni. Culpa, blanditiis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos maxime quis dolor doloribus quos tenetur modi voluptates aliquid vitae cum, nobis, tempora temporibus veritatis? Perferendis illum atque id accusamus aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae beatae esse voluptate, itaque assumenda eaque tempora labore corporis ratione ullam repellat saepe quis fuga consequatur et maxime laudantium accusantium error.</p></li>
+            <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At cupiditate cumque natus animi facere, ipsa molestiae quam repellendus, voluptate in eum porro? Dolore consectetur itaque, magnam in tenetur voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officia culpa impedit fuga tempora veritatis eligendi? Consequatur nisi obcaecati nemo, consectetur non, vero quaerat est vel, sequi laborum doloremque quam?</p></li>
+            <li><p>Calentar el horno a 220C</p></li>
+            <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti maiores excepturi iure nesciunt ab dicta ut? Voluptatum id praesentium et, delectus velit, earum in repellendus aperiam odit voluptates quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, optio, assumenda voluptatum laudantium aspernatur dignissimos nam tempore delectus itaque, quasi consectetur ad inventore deleniti velit natus sint iure illo magni!</li></p>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, magni. Quisquam tempora voluptate ex facere corporis labore veritatis, delectus ducimus magnam, eligendi quo, quam consequuntur iusto nam soluta! Esse, odio!</li>
+          </ol>
+        </div>
+      </div>
+      <hr color="grey" size="1">
+    </div>
+    </section>
+    <!--CARDS-->
+    <section>
+      <div>
+        <h1 class="related">RECETAS RELACIONADAS</h1>
+      </div>
+      <div class="container-sm card-deck p-5">
+        <div class="card">
+          <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="pancakes">
+          <div class="card-body">
+            <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatum magni fugit doloremque sint, rem, sapiente nisi quaerat, illo labore dolorum? Earum at, quaerat officia sunt perferendis dolore deleniti veritatis.</p>
+          </div>
+        </div>
+          <div class="card">
+            <img src="assets/img/recipe-card-2.png" class="card-img-top" alt="tiramisú">
+            <div class="card-body">
+              <h5 class="card-title">TIRAMISÚ</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, amet enim tempore, maiores molestias nostrum consequuntur adipisci obcaecati possimus odio aliquid! Voluptatem inventore quibusdam fuga rerum ea magnam veniam laboriosam.</p>
+            </div>
+          </div>
+        <div class="card">
+          <img src="assets/img/recipe-card-3.png" class="card-img-top" alt="plateada">
+          <div class="card-body">
+            <h5 class="card-title">PLATEADA</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur velit odio natus vero. Mollitia veritatis odio modi accusantium? Delectus velit nobis at dolor animi officiis, inventore voluptate veritatis fugit unde!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SUBCRIBE-->
+    <section>
+      <div class="bg-danger text-white text-center p-5">
+      <h1 class="pt-5">SUBSCRIBETE EN NUESTO NEWSLETTER</h1>
+      <p class="pb-3">y obtén las mejores recetas en Ricomida</p>
+      <button type="button" class="btn btn-outline-light">Empezar</button>
+      </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+      <h1 class="ricomida-fuente text-center text-white bg-dark p-3">Ricomida</h1>
+    </footer>
     <!--jQuery 3.3.1 sin slim-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!--Popper JS 1.14.3-->
